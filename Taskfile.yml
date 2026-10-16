@@ -1,0 +1,28 @@
+version: "3"
+
+tasks:
+  setup:
+    desc: Build and start the development stack in the background
+    cmds:
+      - docker compose build
+      - docker compose up -d
+
+  dev:
+    desc: Start the development stack in the foreground
+    cmds:
+      - docker compose up
+
+  logs:
+    desc: Follow logs from all Compose services
+    cmds:
+      - docker compose logs -f
+
+  down:
+    desc: Stop the development stack
+    cmds:
+      - docker compose down
+
+  env-setup:
+    desc: Setup the environment variables
+    cmds:
+      - cp .env.example .env
