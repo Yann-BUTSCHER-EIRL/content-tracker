@@ -1,16 +1,21 @@
 version: "3"
 
 tasks:
+  build:
+    desc: Build the development stack
+    cmds:
+      - docker compose build {{.CLI_ARGS}}
+
+  dev:
+    desc: Start the development stack in the background
+    cmds:
+      - docker compose up -d
+
   setup:
     desc: Build and start the development stack in the background
     cmds:
-      - docker compose build
-      - docker compose up -d
-
-  dev:
-    desc: Start the development stack in the foreground
-    cmds:
-      - docker compose up
+      - task build
+      - task dev
 
   logs:
     desc: Follow logs from all Compose services

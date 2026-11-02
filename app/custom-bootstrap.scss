@@ -1,0 +1,21 @@
+/* Bootstrap variables customization */
+// Colors
+$primary: #E4C1F9;
+$secondary: #FCF6BD;
+$success: #D0F4DE;
+$danger: #FF99C8;
+$warning: #FEC8C3;
+$info: #A9DEF9;
+$light: #D9D9D9;
+$dark: #4C4C4C;
+$text-muted: #A2A2A2;
+
+// Variables
+$component-active-color: $dark;
+$component-active-bg: $light;
+$nav-link-color: $text-muted;
+$nav-link-hover-color: $dark;
+
+/* Import bootstrap to set the changes */
+@import '~bootstrap/scss/bootstrap';
+

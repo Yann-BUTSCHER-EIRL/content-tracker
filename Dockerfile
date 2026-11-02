@@ -1,6 +1,8 @@
-FROM node:20-alpine
+FROM node:20
 
-RUN apk add --no-cache libc6-compat
+# TODO: find which lib is missing for @next/swc-linux-x64-gnu to work
+# FROM node:20-alpine
+# RUN apk add --no-cache libc6-compat
 
 WORKDIR /app
 
