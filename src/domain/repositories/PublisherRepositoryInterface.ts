@@ -1,4 +1,4 @@
-import type { Publisher } from "@/domain/entities/Publisher";
+import type { Publisher } from "@/src/domain/entities/Publisher";
 
 export interface PublisherRepositoryInterface {
     getPublishers: () => Promise<Publisher[]>;

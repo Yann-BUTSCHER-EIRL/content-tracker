@@ -1,4 +1,4 @@
-import type { GoogleBook } from "@/domain/entities/GoogleBook";
+import type { GoogleBook } from "@/src/domain/entities/GoogleBook";
 
 export interface GoogleBookRepositoryInterface {
     getGoogleBooks: () => Promise<GoogleBook[]>;

@@ -1,5 +1,5 @@
-import { User } from "@/domain/entities/User";
-import { Book } from "@/domain/entities/Book";
+import { User } from "@/src/domain/entities/User";
+import { Book } from "@/src/domain/entities/Book";
 
 export class TrackedBook {
     id: string;

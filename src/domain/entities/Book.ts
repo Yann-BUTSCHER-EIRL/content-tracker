@@ -1,6 +1,6 @@
-import { Author } from "@/domain/entities/Author";
-import { Tag } from "@/domain/entities/Tag";
-import { Genre } from "@/domain/entities/Genre";
+import { Author } from "@/src/domain/entities/Author";
+import { Tag } from "@/src/domain/entities/Tag";
+import { Genre } from "@/src/domain/entities/Genre";
 
 export class Book {
     id: string;

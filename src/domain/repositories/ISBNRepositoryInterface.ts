@@ -1,4 +1,4 @@
-import type { ISBN } from "@/domain/entities/ISBN";
+import type { ISBN } from "@/src/domain/entities/ISBN";
 
 export interface ISBNRepositoryInterface {
     getISBNs: () => Promise<ISBN[]>;

@@ -1,4 +1,4 @@
-import type { Author } from "@/domain/entities/Author";
+import type { Author } from "@/src/domain/entities/Author";
 
 export interface AuthorRepositoryInterface {
     getAuthors: () => Promise<Author[]>;

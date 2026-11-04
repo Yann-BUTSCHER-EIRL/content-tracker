@@ -1,4 +1,4 @@
-import type { Publication } from "@/domain/entities/Publication";
+import type { Publication } from "@/src/domain/entities/Publication";
 
 export interface PublicationRepositoryInterface {
     getPublications: () => Promise<Publication[]>;

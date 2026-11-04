@@ -1,4 +1,4 @@
-import type { Genre } from "@/domain/entities/Genre";
+import type { Genre } from "@/src/domain/entities/Genre";
 
 export interface GenreRepositoryInterface {
     getGenres: () => Promise<Genre[]>;

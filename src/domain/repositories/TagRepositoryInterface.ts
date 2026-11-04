@@ -1,4 +1,4 @@
-import type { Tag } from "@/domain/entities/Tag";
+import type { Tag } from "@/src/domain/entities/Tag";
 
 export interface TagRepositoryInterface {
     getTags: () => Promise<Tag[]>;

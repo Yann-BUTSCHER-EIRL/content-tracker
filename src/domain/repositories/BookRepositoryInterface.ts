@@ -1,4 +1,4 @@
-import type { Book } from "@/domain/entities/Book";
+import type { Book } from "@/src/domain/entities/Book";
 
 export interface BookRepositoryInterface {
     getBooks: () => Promise<Book[]>;

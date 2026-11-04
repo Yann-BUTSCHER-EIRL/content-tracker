@@ -1,7 +1,7 @@
-import { Book } from "@/domain/entities/Book";
-import { Publisher } from "@/domain/entities/Publisher";
-import { ISBN } from "@/domain/entities/ISBN";
-import { GoogleBook } from "@/domain/entities/GoogleBook";
+import { Book } from "@/src/domain/entities/Book";
+import { Publisher } from "@/src/domain/entities/Publisher";
+import { ISBN } from "@/src/domain/entities/ISBN";
+import { GoogleBook } from "@/src/domain/entities/GoogleBook";
 
 export class Publication {
     id: string;
